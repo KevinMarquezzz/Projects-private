@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.top_info{
+    background-color: #173753;
+    color: #ffffff;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.top_info .hrlif{
+    border: 1px solid #ffffff;
+    height: 25px;
+    margin-left: 20px;
+}
+.top_info .container{
+    width: 700px;
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    font-size: 14px;
+    
+}
+/*                           HEADER                     */
+#header {
+    height: 120px;
+    width: 100%;
+    background-color: #000000;
+    margin: auto;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06) ;
+    z-index: 999;
+   
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 100%;
+    width: 120px;
+}
+   
+/*                  First Section             */
+
+#background-video {
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+  }
+#FirstSection {
+    padding: 4% 7% 5% 7%;
+   color: #ffffff;
+   font-weight: bolder;
+   overflow: hidden;
+   height: 70vh;
+   position: relative;
+}
+#FirstSection .fsect-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#FirstSection .FsectionContent { 
+    width: 50%; 
+    display: block;
+    align-items: center;
+    justify-content: left;   
+}
+.FsectionContent h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+.FsectionContent .spacing{
+    margin-left: 15%;
+}
+.FsectionContent h3{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-bottom: 10%;
+  
+}
+.FsectionContent .aboutus{
+   text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    height: auto;
+    width: 205px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    transition: 0.1s ease;
+}
+.FsectionContent .aboutus:hover{
+  border: 4px solid #ffffff;
+ }
+
+ /*                  First Section CONTACT FORM            */
+ #FirstSection .fsect-container .form{
+    width: 50%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#FirstSection .form-structure{
+    border: 2px solid #dfdfdf;
+    background-color: #0033669a;
+    border-radius: 10px;
+    box-shadow: 10px 0px 50px 5px #0000008c;
+    display: grid;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    height: 450px;
+    width: 440px;
+}
+.form-structure h4{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.form-structure input{
+    width: 100%;
+}
+.form-structure label{
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.form-structure input{
+    padding: 10px;
+    font-size: 16px;
+}
+.form-structure textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+}
+.form-structure .form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-structure button{
+    width: 250px;
+    border: 2px solid #fafafa;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #fafafa;
+    position: relative;
+    font-size: 16px;
+    transition: 0.1s ease;
+}
+.form-structure button i{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    font-size: 16px;
+}
+.form-structure button:hover{
+    border: 4px solid #fafafa;
+}
+#mailto{
+    display: none;
+}
+
+        /*ABOUT SECTION*/
+
+ #aboutUsSec{
+    background-color: #ffffff;
+    display: flex;
+    padding: 4% 0 4% 0;
+ }
+ .AboutContent{
+    display: grid;
+    align-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 20%;
+    width: 25%;
+ }
+ .AboutContent h2{
+    color: #173753;
+    font-weight: bolder;
+    font-size: 1.6rem;
+ }
+ .AboutContent h4{
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #646669;
+ }
+ .AboutContent2{
+    width: 50%;
+    margin-top: 1%;
+ }
+ .AboutContent2 p{
+    display: block; 
+    font-size: 1.063rem;
+    font-weight: normal;
+    color: black;
+ }
+
+                /*Our Team Section*/
+
+ #ourTeamSect{
+    background-color: #173753;
+    display: flex;
+    padding: 4% 0% 7% 0%;
+    scroll-margin-top: -50px;
+ }
+.teamContent{
+    width: 45%;
+   display: block;
+    color: #ffffff;
+    padding:7% 7% 0% 7%;
+}
+.teamContent h2, .teamContent h4{
+    margin: 0px 0px 20px 0px;
+}
+.teamContent h2{
+    font-size: 3rem;
+}
+
+
+.teamImage{
+    width: 55%;
+    padding: 7% 7% 0% 7%;
+}
+.teamImage img{
+    width: 100%;
+    height: 80vh;
+}
+
+            /*Information1 Section*/
+
+#informativeSect1{
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 7%;
+ }
+ .infContent h2{
+    color: #173753;
+    font-size: 2.2rem;
+ }
+ .itms{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .itm{
+    width: 70%;
+ }
+ .itm i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+ }
+ .itmContent h6{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .itmContent p{
+    color: #646669;
+    text-align: left;
+ }
+
+ /**   GALLERY SECTION     **/
+
+ #gallerySect{
+    background-color: #173753;
+    display: flex;
+    padding: 4% 0 7% 0;
+    text-align: center;
+ }
+#gallerySect h3{
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+.projContainer{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    padding-top: 5%;
+}
+.proj{
+    position: relative;
+    height: 300px;
+    padding: 5%;
+}
+.proj img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.proj img:hover {
+    transform: scale(1.02);
+}
+.btn-container{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proj:nth-child(1), .proj:nth-child(2), .proj:nth-child(3), .proj:nth-child(4), .proj:nth-child(5), .proj:nth-child(6){
+    display: block;
+}
+.btn-container a{
+    text-decoration: none;
+}
+.btn-container .btn{
+    border-radius: 5px;
+    border: 2px solid #212121;
+    background-color: #ffffff;
+    width: 300px;
+    color: #173753;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding: 5px 25px 5px 25px;
+    transition: 0.5s ease;
+}
+.btn-container span:hover{
+    cursor: pointer;
+    background-color: #9acbf7;
+}
+.btn-container span:active{
+    transform: scale(0.9);
+}
+
+            /*Footer Section*/
+
+#footer{
+    background-color: #212121;
+    color: #ffffff;
+    padding:4% 7% 4% 7%;
+}
+.contactInfFooter{
+    display: block;
+    color: #ffffff;
+}
+.contactInfFooter h6{
+    font-size: 13px;
+}
+#footer i{
+    margin-right: 5px;
+}
+.copyright{
+    padding-top: 5%;
+}
+
+            /*      RESPONSIVE        */
+            /*      TABLETS        */
+@media (max-width:900px){
+      /*FIRST SECTION*/
+#FirstSection{
+    padding: 10% 0px;
+}
+#FirstSection .fsect-container{
+    display: grid;
+}
+#FirstSection .FsectionContent{
+    width: 100%;
+    text-align: center;
+}
+#FirstSection .FsectionContent .spacing{
+    margin: 0;
+}
+        /*CONTACT FORM*/
+#FirstSection .form{
+    width: 100%;; 
+    margin-top: 10%;
+}
+  /*OUR TEAM SECTION*/
+#ourTeamSect{
+    padding: 60px 5% 60px 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.teamContent{
+    width: 90%;
+}
+.teamImage{
+    width: 90%;
+}
+.teamImage img{
+    height:100%;
+}
+}
+            /*      SMARTPHONES        */
+@media (max-width:540px){
+.top_info{
+    display: none;
+}
+        /*FIRST SECTION*/
+#FirstSection{
+    padding: 60px 0px;
+    height: 95vh;
+}
+#FirstSection .fsect-container{
+    display: grid;
+}
+#FirstSection .FsectionContent{
+    width: 100%;
+    text-align: center;
+}
+#FirstSection .FsectionContent .spacing{
+    margin: 0;
+}
+        /*CONTACT FORM*/
+#FirstSection .form{
+    width: 100%;; 
+    margin-top: 10%;
+}
+.form .form-structure{
+    max-width: 330px;
+    max-height: 355px;
+}
+.form-structure input{
+    max-width: 300px;
+}
+.form #message{
+    height: 100px;
+    max-width: 300px;
+}
+
+        /*ABOUT SECTION*/
+#aboutUsSec{
+    padding: 60px 40px 60px 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.AboutContent{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.AboutContent2{
+    width: 100%;
+}
+
+                /*Our Team Section*/
+#ourTeamSect{
+    padding: 60px 5% 60px 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.teamContent{
+    width: 90%;
+}
+.teamImage{
+    width: 90%;
+}
+.teamImage img{
+    height:100%;
+}
+
+            /*Information1 Section*/
+#informativeSect1{
+    padding: 60px 7% 60px 7%;
+}
+#informativeSect1 h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.itms{
+    grid-template-columns: repeat(1, 1fr);
+}
+.itm{
+    width: 100%;
+}
+.itms p{
+    margin-bottom: 30px;
+}
+
+ /**   GALLERY SECTION     **/
+#gallerySect{
+    padding: 60px 7% 60px 7%;
+ }
+ .projContainer{
+    grid-template-columns: repeat(1, 1fr); 
+    padding-top: 5%;
+}
+  /**   FOOTER SECTION     **/
+
+#footer{
+    padding: 30px 7% 30px 7%;
+}
+}
+
+  /**   MAX HEIGHT     **/
+ @media (min-height:1300px){
+    #FirstSection{
+        height: 40vh;
+    }
+  #ourTeamSect{
+    padding: 0px 5% 60px 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.teamContent{
+    width: 90%;
+}
+.teamImage{
+    width: 90%;
+}
+.teamImage img{
+    height:100%;
+
+}
+}
+@media (min-height:1000px) and (max-height:1120px){
+    #FirstSection{
+        height: 80vh;
+    }
+}
+@media (min-height:875px) and (max-height:950px){
+    #FirstSection{
+        height: 80vh;
+    }
+}
+@media (min-height:600px) and (max-height:874px) and (width <=1100px){
+    #FirstSection{
+        height: 85vh;
+    }
+}
+@media (min-height:600px) and (max-height:740px) and (width <=800px){
+    #FirstSection{
+        height: 105vh;
+    }
+}

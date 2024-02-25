@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <script src="load-more-button.js" defer></script>
+    <script src="https://kit.fontawesome.com/bf4326a390.js" crossorigin="anonymous"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="manifest" href="img/site.webmanifest">  
+    
+    <title>Our Gallery</title>
+</head>
+<body>
+     <!--HEADER INFO-->
+     <div class="top_info">
+
+        <div class="container"> 
+           <p>hyebrotherscontractorllc@protonmail.com</p>
+           <hr class="hrlif">
+          <p>3159351518 / 3159208050</p>
+          <hr class="hrlif">
+          <p>27607 Raleigh North Carolina</p>
+      </div>
+      </div>
+  
+                  <!--HEADER SECTION-->
+      <header>
+          <nav id="header">
+  
+      <a href="https://www.hyebrotherscontractorllc.com" class="logo"><img src="img\h&e-brothers-logo.jpeg" alt="logo" height="80px" width="120px"></a>
+          </nav>
+      </header>
+                  <!--GALLERY SECTION-->   
+        <section>
+
+        <!--  GALLERY SECITION  -->
+
+    <section id="gallerySect">
+    <div class="gaHeader">
+        <h3><strong>PROJECTS GALLERY</strong></h3>
+   
+    <div class="projContainer">
+
+        <div class="proj">
+            <a href="img\Projects\beautiful_house_facade.jpeg" data-lightbox="models" data-title="Caption-1">
+                <img src="img\Projects\beautiful_house_facade.jpeg">
+            </a>   
+        </div>
+        <div class="proj">
+            <a href="img\Projects\beautiful-building-facade.jpeg" data-lightbox="models" data-title="Caption-2">
+                <img src="img\Projects\beautiful-building-facade.jpeg">
+            </a>   
+        </div>
+        <div class="proj">
+                <a href="img\Projects\blue-building-in-construction.jpeg" data-lightbox="models" data-title="Caption-3">
+                    <img src="img\Projects\blue-building-in-construction.jpeg">
+                </a>               
+        </div>
+        <div class="proj">
+            <a href="img\Projects\building_under_renovation.jpeg" data-lightbox="models" data-title="Caption-4">
+                <img src="img\Projects\building_under_renovation.jpeg">
+            </a>               
+    </div>
+    <div class="proj">
+        <a href="img\Projects\building-with-many-windows.jpeg" data-lightbox="models" data-title="Caption-5">
+            <img src="img\Projects\building-with-many-windows.jpeg">
+        </a>               
+</div>
+<div class="proj">
+    <a href="img\Projects\exterior-facade-of-building.jpeg" data-lightbox="models" data-title="Caption-6">
+        <img src="img\Projects\exterior-facade-of-building.jpeg">
+    </a>               
+</div>
+<div class="proj">
+    <a href="img\Projects\red-and-black-building-maintaining.jpeg" data-lightbox="models" data-title="Caption-7">
+        <img src="img\Projects\red-and-black-building-maintaining.jpeg">
+    </a>               
+</div>
+<div class="proj">
+    <a href="img\Projects\residential-building-complex.jpeg" data-lightbox="models" data-title="Caption-8">
+        <img src="img\Projects\residential-building-complex.jpeg">
+    </a>               
+</div>
+<div class="proj">
+    <a href="img\Projects\worker-maintaining-building.jpeg" data-lightbox="models" data-title="Caption-9">
+        <img src="img\Projects\worker-maintaining-building.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\elegant-balcony-railing-design.jpeg" data-lightbox="models" data-title="Caption-10">
+        <img src="img\Projects\elegant-balcony-railing-design.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\Exterior-siding-of-residential-complex-in-action.jpeg" data-lightbox="models" data-title="Caption-11">
+        <img src="img\Projects\Exterior-siding-of-residential-complex-in-action.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\buildings-under-construction.jpeg" data-lightbox="models" data-title="Caption-12">
+        <img src="img\Projects\buildings-under-construction.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\Construction-Site-With-A-Crane-And-Wood.jpeg" data-lightbox="models" data-title="Caption-13">
+        <img src="img\Projects\Construction-Site-With-A-Crane-And-Wood.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\A-Building-Under-Construction-With-Workers-On-Platform.jpeg" data-lightbox="models" data-title="Caption-14">
+        <img src="img\Projects\A-Building-Under-Construction-With-Workers-On-Platform.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\exterior-siding-of-red-house-with-snow-around.jpeg" data-lightbox="models" data-title="Caption-15">
+        <img src="img\Projects\exterior-siding-of-red-house-with-snow-around.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\facade-construction-for-a-group-of-buildings.jpeg" data-lightbox="models" data-title="Caption-16">
+        <img src="img\Projects\facade-construction-for-a-group-of-buildings.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\modern-checkered-facade-design.jpeg" data-lightbox="models" data-title="Caption-17">
+        <img src="img\Projects\modern-checkered-facade-design.jpeg">
+    </a>               
+</div>
+<div class="proj h-proj">
+    <a href="img\Projects\building-under-construction.jpeg" data-lightbox="models" data-title="Caption-18">
+        <img src="img\Projects\building-under-construction.jpeg">
+    </a>               
+</div>
+
+
+    </div>
+    <div class="btn-container">
+        <span class="btn">LOAD MORE</span>
+    </div>
+
+    </div>
+    </section>
+
+
+        </section>
+
+                  <!--FOOTER-->
+
+    <footer id="footer" >
+           <div class="contactInfFooter">
+        <h6>CONTACT INFORMATION</h6>
+        <br>
+        <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>hyebrotherscontractorllc@protonmail.com</p>
+        <br>
+        <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>3159351518 - 3159208050</p>
+        <br>
+        <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>2609 Village Ct Apt G · 27607 Raleigh North Carolina</p>
+           </div>
+           <div class="copyright">
+            <p><i class="fa-regular fa-copyright" style="color: #ffffff;"></i>2023 All rights reserved</p>
+        </div>
+        </footer>
+      
+</body>
+</html>
